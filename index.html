@@ -1,0 +1,118 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="pendientes">
+        <h1>Mis pendientes</h1>
+        <p id="fecha">27 de Marzo</p>
+    </div>
+
+
+    <div class="notes">
+
+    <div class="addNote">
+        <input type="text" name="nota" value="Escribe aqui" id="nota">
+        <button>+</button>
+    </div>
+
+
+    <div class="porHacer">
+        <h1>Por hacer</h1>
+        
+        <div class="todos">
+
+        <div class="input1">
+            <input type="checkbox" name="todo1" id="" checked="checked">
+            <label for="todo1">Preparar presentacion</label>
+        </div>
+        
+        <div class="input1">
+            <input class="bg" type="checkbox" name="todo2" id="" >
+            <label for="todo2">Hacer ejercicio</label>
+        </div>
+
+        </div>
+
+    </div>
+
+    
+    <div class="fin">
+        <h1>Terminado</h1>
+
+        <div class="input1 und">
+            <input  type="checkbox" name="todo1" id="1">
+            <label  class="und" for="todo1">Preparar presentacion</label>
+        </div>
+
+    </div>
+
+    </div>
+
+    
+</body>
+    <script type="text/javascript" src="funciones.js"></script>
+    <script type="text/javascript">
+      window.addEventListener("load", init);
+    </script>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">   
+    <title>TO DO LIST</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>
+        Mis pendientes
+    </h1>
+    <h4 id="fecha"> 
+        27 de Marzo 
+    </h4>
+  </header>
+
+  <section>
+    <article >
+        <input id="nuevaTarea" type="text" placeholder="Escribe aquí">
+        <button onclick="agregar()">+</button>
+    </article>
+
+    <br><br><br><br><h3>Por hacer</h3>
+        <nav class="porhacer">
+            
+        </nav><br>
+
+        <h3>Terminado</h3>
+        <nav class="terminado">
+
+        </nav>
+  </section>
+  
+</body>
+<script type="text/javascript" src="funciones.js"></script>
+<script type="text/javascript"> 
+    window.addEventListener('load',init);
+</script>
+</html>
