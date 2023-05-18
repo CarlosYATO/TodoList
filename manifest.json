@@ -9,6 +9,7 @@
   "description": "", //Es la descripción de la app
   "theme_color": "#272B34", //Es el color por defecto del tema de la app
   //Iconos: es el listado del tamaño de los iconos para las diferentes resoluciones de pantalla
+  "start_url": "/",
   "icons": [
     {
       "src": "onetme.png",
