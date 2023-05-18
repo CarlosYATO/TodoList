@@ -11,7 +11,7 @@
   //Iconos: es el listado del tamaño de los iconos para las diferentes resoluciones de pantalla
   "icons": [
     {
-      "src": "miyuki.jpg",
+      "src": "onetme.png",
       "sizes": "192x192",
       "type": "image/jpg"
     },
